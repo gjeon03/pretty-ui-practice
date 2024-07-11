@@ -63,19 +63,19 @@ export default function Navigation() {
 
   return (
     <motion.div
-      className="fixed flex justify-between w-full items-center bg-white px-10 h-12 z-10"
+      className="fixed flex font-bold justify-between w-full items-center bg-white px-10 h-12 z-10 font-hyeon"
       animate={controls}
       initial={{ y: 0 }}
       transition={{ duration: 0.3 }}
     >
       <div className={menuClass}>
-        <div className={itemClass}>WHO WEE ARE</div>
-        <div className={itemClass}>WHAT WE DO</div>
+        {/* <div className={itemClass}>WHO WEE ARE</div>
+        <div className={itemClass}>WHAT WE DO</div> */}
       </div>
-      <h1 className="text-2xl">Lirix</h1>
+      <h1 className="text-2xl">서플데이</h1>
       <div className={menuClass}>
-        <div className={itemClass}>CASE STUDIES</div>
-        <div className={itemClass}>GET IN TOUCH</div>
+        {/* <div className={itemClass}>CASE STUDIES</div>
+        <div className={itemClass}>GET IN TOUCH</div> */}
       </div>
     </motion.div>
   );
